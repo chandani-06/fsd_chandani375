@@ -1,0 +1,62 @@
+@import url('https://fonts.google.com/specimen/Roboto');
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Arima', cursive;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+}
+header h1{
+    margin:0;
+    font-size: 24px;
+}
+main{
+    flex:1;
+    padding: 20px;
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.social-icon{
+    margin:0;
+}
+.social-icon .a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 15px;
+    transition:color 0.3s ease;
+}
+.social-icon a.youtube:hover{
+    color: red;
+}
+.social-icon a.linkedin:hover{
+    color: blue;
+}
+@media (max-width:600px){
+    header p{
+        font-size:20px;
+    }
+    .social-icon.a{
+        font-size: 12px;
+        margin: 0 5px;
+    }
+}
